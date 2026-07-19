@@ -13,7 +13,7 @@ npm install
 
 Requires Node 18+ (uses the built-in `fetch`).
 
-## 2. Get a free API key (no credit card needed)
+## 2. Get a free API key
 
 1. Go to https://console.groq.com/keys
 2. Sign up (free) and create an API key
@@ -65,6 +65,3 @@ pm-website-auditor/
 - Add a "compare two URLs" mode (e.g. your product vs. a competitor).
 - Export the report as PDF or Markdown.
 
-## Want to switch to Claude later?
-
-If you ever want higher-quality analysis and are willing to pay for API usage, swap `callGroq()` in `server.js` for the Anthropic SDK (`@anthropic-ai/sdk`) — the prompt-building and JSON-parsing logic stays exactly the same, only the API call changes.
