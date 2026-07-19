@@ -4,6 +4,14 @@ Paste a URL, get a product-manager-lens audit: what's working, what to fix (prio
 
 How it works: the server fetches the page's live HTML, pulls out the signals a PM would actually look at (headings, CTAs, forms, nav, images/alt text, link counts, visible copy…), and sends that structured summary to a free LLM (via Groq) to generate the audit. No screenshots — this is a structural + content read, not a visual design review.
 
+## Snapshots of an Example
+
+![1st](./1.png)
+
+![2nd](./2.png)
+
+![3rd](./3.png)
+
 ## 1. Install
 
 ```bash
