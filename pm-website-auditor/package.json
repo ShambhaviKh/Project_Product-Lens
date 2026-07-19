@@ -1,0 +1,20 @@
+{
+  "name": "pm-website-auditor",
+  "version": "1.0.0",
+  "description": "Paste a URL, get a product-manager-lens audit: what's working, what to fix, and the full user journey.",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
